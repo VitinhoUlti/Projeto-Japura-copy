@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+::-webkit-scrollbar{
+    width: 0%;
+    height: 0%;
+}
+html, body{
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    background-image: url(imagens/caixa\ d\ agua.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+header{
+    display: block;
+    background-color: black;
+    padding: 10px;
+    min-width: 600px;
+}
+header h1{
+    text-align: center;
+    color: white;
+}
+header p{
+    display: inline;
+    padding: 10px;
+    background-color: gray;
+    margin-left: 20px;
+}
+header a{
+    text-decoration: none;
+}
+header p:hover{
+    background-color: darkgray;
+}
+header a:hover{
+    color: red;
+}
+main{
+    width: 600px;
+    height: auto;
+    display: block;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+footer{
+    display: block;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    min-width: 600px;
+
+}
+footer p{
+    color: white;
+}
+footer a{
+    text-decoration: none;
+}

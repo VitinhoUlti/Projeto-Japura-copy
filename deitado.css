@@ -1,0 +1,15 @@
+header h1{
+    color: black;
+}
+article::after{
+    content: "Essa folha foi imprimida pelo site https://vitinhoulti.github.io/Projeto-Japura/";
+}
+header a{
+    color: black;
+}
+footer p, footer a{
+    color: black;
+}
+iframe{
+    display: none;
+}
